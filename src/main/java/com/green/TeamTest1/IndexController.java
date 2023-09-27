@@ -10,6 +10,8 @@ public class IndexController {
     //시작페이지
     @GetMapping("/")
     public String main(){
+        System.out.println("집에 보내주세요..");
+        System.out.println("집에 보내주세요..");
         return "index";
     }
 }
